@@ -34,19 +34,22 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  right: 50%;
   bottom: 15px;
   z-index: 996;
-  background: #F8060699;
+  background: #e6e0e099;
   width: 40px;
   height: 40px;
   border-radius: 4px;
   transition: all 0.4s;
+  
 }
 .back-to-top i {
   font-size: 28px;
   color: rgb(22, 21, 21);
   line-height: 0;
+  
+  
 }
 .back-to-top:hover {
   background: #F8060699;
@@ -378,7 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .carousel-inner .active.carousel-item-start,
 #hero .carousel-inner .active.carousel-item-end {
   opacity: 0;
-  background-color:#ee333f;
+  
 }
 #hero .carousel-inner .active,
 #hero .carousel-inner .carousel-item-next.carousel-item-start,
@@ -921,7 +924,7 @@ section {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #b4aca8;
+  color: #0f0f0f;
 }
 .team .member .member-info p {
   font-style: italic;
@@ -997,9 +1000,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Career
 --------------------------------------------------------------*/
-.pricing .box {
+.Career .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1008,7 +1011,7 @@ section {
   position: relative;
   overflow: hidden;
 }
-.pricing h3 {
+.Career h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
   padding: 20px 15px;
@@ -1017,24 +1020,24 @@ section {
   color: #847872;
   background: #f8f8f8;
 }
-.pricing h4 {
+.Career h4 {
   font-size: 36px;
   color: #1bbd36;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
-.pricing h4 sup {
+.Career h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
-.pricing h4 span {
+.Career h4 span {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
-.pricing ul {
+.Career ul {
   padding: 0;
   list-style: none;
   color: #4d4643;
@@ -1042,25 +1045,25 @@ section {
   line-height: 20px;
   font-size: 14px;
 }
-.pricing ul li {
+.Career ul li {
   padding-bottom: 16px;
 }
-.pricing ul i {
+.Career ul i {
   color: #1bbd36;
   font-size: 18px;
   padding-right: 4px;
 }
-.pricing ul .na {
+.Career ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
-.pricing .btn-wrap {
+.Career .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
 }
-.pricing .btn-buy {
+.Career .btn-buy {
   background: #F8060699;
   display: inline-block;
   padding: 8px 35px 10px 35px;
@@ -1073,14 +1076,14 @@ section {
   font-weight: 600;
   transition: 0.3s;
 }
-.pricing .btn-buy:hover {
+.Career .btn-buy:hover {
   background: #F8060699;
 }
-.pricing .featured h3 {
+.Career .featured h3 {
   color: #fff;
   background: #F8060699;
 }
-.pricing .advanced {
+.Career .advanced {
   width: 200px;
   position: absolute;
   top: 18px;
@@ -1173,7 +1176,7 @@ section {
   padding: 40px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   position: relative;
-  background: #fff;
+  background: rgb(201, 30, 30);
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -1896,4 +1899,20 @@ section {
   background: #0a0a0a;
   color: #fff;
   text-decoration: none;
+}
+
+.geeks {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.5);
 }
